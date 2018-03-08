@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body{
+.nav-wrapper{
 background-color: #012344;
 }
 
@@ -109,4 +109,8 @@ a {
   -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+}
+
+.input-field label {
+  color: #fff;
 }
