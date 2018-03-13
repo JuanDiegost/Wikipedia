@@ -34,7 +34,7 @@ $(document).ready(function () {
     $("#result").empty();
     for (var i = 0; i < data.query.search.length; i++) {
       var variable = data.query.search[i]
-      $("#result").append('<div class="row"><div class="col s12 m7"><div class="card " id="' + variable.pageid + '"><div class="card-content hoverable"><span class="card-title">' + variable.title + '</span><p>' + variable.snippet + '</p></div><div class="card-action"><a href="https://en.wikipedia.org/?curid=' + variable.pageid + '" target="_blank">This is a link</a></div></div></div></div>');
+      $("#result").append('<div class="row"><div class="col s12 m7"><div class="card " id="' + variable.pageid + '"><div class="card-content hoverable"><span class="card-title">' + variable.title + '</span><p>' + variable.snippet + '</p></div><div class="card-action"><a href="https://en.wikipedia.org/?curid=' + variable.pageid + '" target="_blank">Ver</a></div></div></div></div>');
       /* <a href="https://en.wikipedia.org/?curid='+variable.pageid+'" target="_blank"><article id="'+variable.pageid+'"><h2>'+variable.title+"</h2><p>"+variable.snippet+"</p></article></a>");*/
     }
   }
